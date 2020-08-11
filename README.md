@@ -57,7 +57,7 @@ of your choice). For Debian / Ubuntu / similar:
 
 Download the code and prepare the python environment:
 
-    git clone https://github.com/mattbierbaum/arxiv-public-datasets
+    git clone https://github.com/nicholaskemery/arxiv-public-datasets
     cd arxiv-public-datasets
 
     virtualenv venv
