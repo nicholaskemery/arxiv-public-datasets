@@ -71,5 +71,5 @@ def convert_directory_parallel(bucketname: str, inputblob: str, outputblob: str,
 
 if __name__ == '__main__':
 
-    result = convert_directory("gs://nkebucket-arxiv-ai", "gs://nkebucket-arxiv-ai/arxiv-pdf", "gs://nkebucket-arxiv-ai/arxiv-text", servicekeypath="/home/niemery/arxiv-public-datasets/arxiv_public_data/key.json")
+    result = convert_directory("nkebucket-arxiv-ai", "nkebucket-arxiv-ai/arxiv-pdf", "nkebucket-arxiv-ai/arxiv-text", servicekeypath="/home/niemery/arxiv-public-datasets/arxiv_public_data/key.json")
     print(result, "error(s)")
