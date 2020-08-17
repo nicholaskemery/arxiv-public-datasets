@@ -1,6 +1,6 @@
 import tempfile
 from functools import partial
-from arxiv_public_data import pdftotext
+import pdftotext
 from google.cloud import storage
 from multiprocessing import Pool
 
