@@ -90,4 +90,4 @@ if __name__ == '__main__':
                                inputblob="arxiv-pdf",
                                outputblob="arxiv-text",
                                workers=4,
-                               servicekeypath="nicholaskey.json")
+                               servicekeypath="/home/niemery/arxiv-public-datasets/arxiv_public_data/nicholaskey.json")
